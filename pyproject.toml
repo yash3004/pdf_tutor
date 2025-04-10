@@ -11,5 +11,20 @@ license = "MIT"
 license-files = ["LICENSE"]
 version = "0.1.0"
 
+dependencies = [
+    "openai",
+    "dacite",
+    "pyyaml",
+    "rich",
+    "dataclasses-json",
+    "qdrant-client",
+    "fastapi",
+    "websockets",
+    "commentjson",
+    "PyPDF2",
+    "pymongo",
+]
+
+
 [project.scripts]
 pdf_tutor = "src.server:run_wsgi"
